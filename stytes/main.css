@@ -21,7 +21,7 @@
    background-color: hsl(212, 45%, 89%);
    padding: 10px;
    font-size: 15px;
-
+   height: 90%;
 }
 
 .header {
@@ -60,4 +60,66 @@
     color: hsl(220, 15%, 55%);
     text-align: center;
     padding-bottom: 10px;
+}
+
+.footer{
+    height: 10%;
+    padding: 10px;
+}
+
+@media all and (min-width: 768px) {
+    .body {
+        padding: 25px;
+        }
+    .header {
+            margin: 30px;
+            font-size: 25px;
+        }
+
+    .main {
+        padding: 30px;
+        width: 60%;
+    }
+
+    .subtitle {
+        padding: 30px 0 15px 0;
+        font-size: 25px;
+    }
+
+    .text {
+        padding-bottom: 20px;
+        font-size: 18px;
+    }
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        padding-top: 35px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .body {
+        padding: 30px;
+    }
+
+    .header {
+        margin: 40px;
+        font-size: 25px;
+    }
+
+    .main {
+        padding: 30px;
+        width: 30%;
+    }
+
+    .subtitle {
+        padding: 30px 0 15px 0;
+        font-size: 25px;
+    }
+
+    .text {
+        padding-bottom: 20px;
+        font-size: 15px;
+    } 
+
 }
